@@ -1,0 +1,29 @@
+{
+    "users": [
+        { "id": 1, "username": "User1", "password": "123456" },
+        { "id": 2, "username": "User2", "password": "123456" },
+        { "id": 3, "username": "User3", "password": "123456" },
+        { "id": 4, "username": "User4", "password": "123456" },
+        { "id": 5, "username": "User5", "password": "123456" },
+        { "id": 6, "username": "User6", "password": "123456" }
+    ],
+    "friends": [
+        { "user1": 1, "user2": 4 },
+        { "user1": 1, "user2": 6 },
+        { "user1": 2, "user2": 3 },
+        { "user1": 3, "user2": 4 },
+        { "user1": 3, "user2": 5 },
+        { "user1": 5, "user2": 6 }
+    ],
+    "groups": [
+        { "id": 1, "creator": 3, "title": "Group 1", "users": [1, 2, 3] },
+        { "id": 2, "creator": 3, "title": "Group 2", "users": [3, 2, 4, 5] },
+        { "id": 3, "creator": 2, "title": "Group 3", "users": [2, 3, 4, 1] },
+        { "id": 4, "creator": 1, "title": "Group 4", "users": [1, 5, 2, 4] },
+        { "id": 5, "creator": 2, "title": "Group 5", "users": [2, 6, 1] },
+        { "id": 6, "creator": 4, "title": "Group 6", "users": [4, 1, 5, 6] }
+    ],
+    "posts": [
+        { "id": 1, "user": 5, "group": "2", "body": "Hello World" }
+    ]
+}
